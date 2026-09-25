@@ -121,6 +121,12 @@ tbody tr:nth-child(even) {
   cursor: pointer;
 }
 
+.form-group textarea {
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+}
+
 #submit-btn:hover {
   background-color: #59465b;
 }
